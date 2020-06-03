@@ -1,0 +1,21 @@
+{
+  "name": "parcel-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open --no-cache",
+    "buildsubfolder": "parcel build index.html --public-url ./",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1",
+    "parcel-plugin-clean-dist": "0.0.6",
+    "sass": "^1.26.7"
+  },
+  "keywords": []
+}
